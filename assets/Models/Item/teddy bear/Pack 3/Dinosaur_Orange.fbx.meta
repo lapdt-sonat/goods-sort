@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "333158ca-2b01-4855-bb49-fde034202a94",
+  "files": [],
+  "subMetas": {
+    "75368": {
+      "importer": "gltf-material",
+      "uuid": "333158ca-2b01-4855-bb49-fde034202a94@75368",
+      "displayName": "",
+      "id": "75368",
+      "name": "Toys_TextureAtlas_mt65.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "697b5": {
+      "importer": "gltf-mesh",
+      "uuid": "333158ca-2b01-4855-bb49-fde034202a94@697b5",
+      "displayName": "",
+      "id": "697b5",
+      "name": "Dinosaur_Orange.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d7569": {
+      "importer": "gltf-embeded-image",
+      "uuid": "333158ca-2b01-4855-bb49-fde034202a94@d7569",
+      "displayName": "",
+      "id": "d7569",
+      "name": "file119.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "34d5e": {
+      "importer": "texture",
+      "uuid": "333158ca-2b01-4855-bb49-fde034202a94@34d5e",
+      "displayName": "",
+      "id": "34d5e",
+      "name": "file119.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "333158ca-2b01-4855-bb49-fde034202a94@d7569"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f69d8": {
+      "importer": "gltf-scene",
+      "uuid": "333158ca-2b01-4855-bb49-fde034202a94@f69d8",
+      "displayName": "",
+      "id": "f69d8",
+      "name": "Dinosaur_Orange.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file119",
+        "uri": "333158ca-2b01-4855-bb49-fde034202a94@d7569"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "333158ca-2b01-4855-bb49-fde034202a94@f69d8",
+    "assetFinder": {
+      "meshes": [
+        "333158ca-2b01-4855-bb49-fde034202a94@697b5"
+      ],
+      "skeletons": [],
+      "textures": [
+        "333158ca-2b01-4855-bb49-fde034202a94@34d5e"
+      ],
+      "materials": [
+        "333158ca-2b01-4855-bb49-fde034202a94@75368"
+      ],
+      "scenes": [
+        "333158ca-2b01-4855-bb49-fde034202a94@f69d8"
+      ]
+    }
+  }
+}

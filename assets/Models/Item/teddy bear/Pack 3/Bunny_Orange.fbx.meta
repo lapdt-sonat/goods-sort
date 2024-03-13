@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "23842776-e746-4e55-ba59-f3b74252d7bc",
+  "files": [],
+  "subMetas": {
+    "a1e19": {
+      "importer": "gltf-mesh",
+      "uuid": "23842776-e746-4e55-ba59-f3b74252d7bc@a1e19",
+      "displayName": "",
+      "id": "a1e19",
+      "name": "Bunny_Orange.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "af4da": {
+      "importer": "gltf-embeded-image",
+      "uuid": "23842776-e746-4e55-ba59-f3b74252d7bc@af4da",
+      "displayName": "",
+      "id": "af4da",
+      "name": "file107.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "30c43": {
+      "importer": "texture",
+      "uuid": "23842776-e746-4e55-ba59-f3b74252d7bc@30c43",
+      "displayName": "",
+      "id": "30c43",
+      "name": "file107.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "23842776-e746-4e55-ba59-f3b74252d7bc@af4da"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "dc304": {
+      "importer": "gltf-material",
+      "uuid": "23842776-e746-4e55-ba59-f3b74252d7bc@dc304",
+      "displayName": "",
+      "id": "dc304",
+      "name": "Toys_TextureAtlas_mt60.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5e90": {
+      "importer": "gltf-scene",
+      "uuid": "23842776-e746-4e55-ba59-f3b74252d7bc@e5e90",
+      "displayName": "",
+      "id": "e5e90",
+      "name": "Bunny_Orange.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file107",
+        "uri": "23842776-e746-4e55-ba59-f3b74252d7bc@af4da"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "23842776-e746-4e55-ba59-f3b74252d7bc@e5e90",
+    "assetFinder": {
+      "meshes": [
+        "23842776-e746-4e55-ba59-f3b74252d7bc@a1e19"
+      ],
+      "skeletons": [],
+      "textures": [
+        "23842776-e746-4e55-ba59-f3b74252d7bc@30c43"
+      ],
+      "materials": [
+        "23842776-e746-4e55-ba59-f3b74252d7bc@dc304"
+      ],
+      "scenes": [
+        "23842776-e746-4e55-ba59-f3b74252d7bc@e5e90"
+      ]
+    }
+  }
+}

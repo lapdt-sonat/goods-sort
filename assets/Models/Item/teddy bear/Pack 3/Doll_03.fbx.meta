@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce",
+  "files": [],
+  "subMetas": {
+    "23af8": {
+      "importer": "gltf-mesh",
+      "uuid": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@23af8",
+      "displayName": "",
+      "id": "23af8",
+      "name": "Doll_03.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed394": {
+      "importer": "gltf-embeded-image",
+      "uuid": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@ed394",
+      "displayName": "",
+      "id": "ed394",
+      "name": "file124.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "6c4d6": {
+      "importer": "texture",
+      "uuid": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@6c4d6",
+      "displayName": "",
+      "id": "6c4d6",
+      "name": "file124.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@ed394"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2ec4d": {
+      "importer": "gltf-material",
+      "uuid": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@2ec4d",
+      "displayName": "",
+      "id": "2ec4d",
+      "name": "Toys_TextureAtlas_mt17.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ebd26": {
+      "importer": "gltf-scene",
+      "uuid": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@ebd26",
+      "displayName": "",
+      "id": "ebd26",
+      "name": "Doll_03.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file124",
+        "uri": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@ed394"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@ebd26",
+    "assetFinder": {
+      "meshes": [
+        "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@23af8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@6c4d6"
+      ],
+      "materials": [
+        "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@2ec4d"
+      ],
+      "scenes": [
+        "bc71dd75-2f74-4d54-86d8-941f1fe9e9ce@ebd26"
+      ]
+    }
+  }
+}

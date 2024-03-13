@@ -1,0 +1,191 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e5f54204-e584-4a61-ba8c-0e5f9a25d756",
+  "files": [],
+  "subMetas": {
+    "def33": {
+      "importer": "gltf-mesh",
+      "uuid": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@def33",
+      "displayName": "",
+      "id": "def33",
+      "name": "Ke_go_002.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f8091": {
+      "importer": "gltf-embeded-image",
+      "uuid": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@f8091",
+      "displayName": "",
+      "id": "f8091",
+      "name": "oak-wood-texture-design-background.jpg.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "c79a5": {
+      "importer": "texture",
+      "uuid": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@c79a5",
+      "displayName": "",
+      "id": "c79a5",
+      "name": "oak-wood-texture-design-background.jpg.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@f8091"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "07d2a": {
+      "importer": "gltf-material",
+      "uuid": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@07d2a",
+      "displayName": "",
+      "id": "07d2a",
+      "name": "pasted__pasted__Ke_go_mt.001.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "812f1": {
+      "importer": "gltf-scene",
+      "uuid": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@812f1",
+      "displayName": "",
+      "id": "812f1",
+      "name": "ke go.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "oak-wood-texture-design-background.jpg",
+        "uri": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@f8091"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "e5f54204-e584-4a61-ba8c-0e5f9a25d756@812f1",
+    "assetFinder": {
+      "meshes": [
+        "e5f54204-e584-4a61-ba8c-0e5f9a25d756@def33"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e5f54204-e584-4a61-ba8c-0e5f9a25d756@c79a5"
+      ],
+      "materials": [
+        "e5f54204-e584-4a61-ba8c-0e5f9a25d756@07d2a"
+      ],
+      "scenes": [
+        "e5f54204-e584-4a61-ba8c-0e5f9a25d756@812f1"
+      ]
+    },
+    "materials": {
+      "e5f54204-e584-4a61-ba8c-0e5f9a25d756@07d2a": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 2,
+            "USE_ALBEDO_MAP": true,
+            "HAS_EXPORTED_METALLIC": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "3a48e927-93c6-4181-b7a4-427980db3d8a@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "shininessExponent": 19.999999521047936,
+            "specularFactor": 0.25,
+            "transparencyFactor": 0
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

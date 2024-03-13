@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6",
+  "files": [],
+  "subMetas": {
+    "79663": {
+      "importer": "gltf-scene",
+      "uuid": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@79663",
+      "displayName": "",
+      "id": "79663",
+      "name": "RubberDuck.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "215af": {
+      "importer": "gltf-mesh",
+      "uuid": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@215af",
+      "displayName": "",
+      "id": "215af",
+      "name": "RubberDuck.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "09ca8": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@09ca8",
+      "displayName": "",
+      "id": "09ca8",
+      "name": "file55.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "f8dad": {
+      "importer": "texture",
+      "uuid": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@f8dad",
+      "displayName": "",
+      "id": "f8dad",
+      "name": "file55.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@09ca8"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fc3ab": {
+      "importer": "gltf-material",
+      "uuid": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@fc3ab",
+      "displayName": "",
+      "id": "fc3ab",
+      "name": "Toys_TextureAtlas_mt29.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file55",
+        "uri": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@09ca8"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@79663",
+    "assetFinder": {
+      "meshes": [
+        "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@215af"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@f8dad"
+      ],
+      "materials": [
+        "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@fc3ab"
+      ],
+      "scenes": [
+        "0a47f5c0-cc29-437c-8c99-64e6b5f920a6@79663"
+      ]
+    }
+  }
+}

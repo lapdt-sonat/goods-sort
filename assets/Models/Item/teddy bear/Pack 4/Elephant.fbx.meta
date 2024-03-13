@@ -1,0 +1,110 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "5ef71166-3a06-4539-adbb-de629a76fd73",
+  "files": [],
+  "subMetas": {
+    "abde1": {
+      "importer": "gltf-mesh",
+      "uuid": "5ef71166-3a06-4539-adbb-de629a76fd73@abde1",
+      "displayName": "",
+      "id": "abde1",
+      "name": "Elephant.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c86f2": {
+      "importer": "texture",
+      "uuid": "5ef71166-3a06-4539-adbb-de629a76fd73@c86f2",
+      "displayName": "",
+      "id": "c86f2",
+      "name": "file24.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/teddy bear/Pack 4/Textures/Toys2_TextureAtlas_01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c7249": {
+      "importer": "gltf-material",
+      "uuid": "5ef71166-3a06-4539-adbb-de629a76fd73@c7249",
+      "displayName": "",
+      "id": "c7249",
+      "name": "Toys2_TextureAtlas_01_mt23.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2ea74": {
+      "importer": "gltf-scene",
+      "uuid": "5ef71166-3a06-4539-adbb-de629a76fd73@2ea74",
+      "displayName": "",
+      "id": "2ea74",
+      "name": "Elephant.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file24",
+        "uri": "db://assets/Models/Item/teddy bear/Pack 4/Textures/Toys2_TextureAtlas_01.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "5ef71166-3a06-4539-adbb-de629a76fd73@2ea74",
+    "assetFinder": {
+      "meshes": [
+        "5ef71166-3a06-4539-adbb-de629a76fd73@abde1"
+      ],
+      "skeletons": [],
+      "textures": [
+        "5ef71166-3a06-4539-adbb-de629a76fd73@c86f2"
+      ],
+      "materials": [
+        "5ef71166-3a06-4539-adbb-de629a76fd73@c7249"
+      ],
+      "scenes": [
+        "5ef71166-3a06-4539-adbb-de629a76fd73@2ea74"
+      ]
+    }
+  }
+}

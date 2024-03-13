@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "460c927a-5775-49d8-b701-154ac7fc9cba",
+  "files": [],
+  "subMetas": {
+    "39489": {
+      "importer": "gltf-material",
+      "uuid": "460c927a-5775-49d8-b701-154ac7fc9cba@39489",
+      "displayName": "",
+      "id": "39489",
+      "name": "Toys_TextureAtlas_mt77.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "90b79": {
+      "importer": "gltf-mesh",
+      "uuid": "460c927a-5775-49d8-b701-154ac7fc9cba@90b79",
+      "displayName": "",
+      "id": "90b79",
+      "name": "Sheep_White.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d20b3": {
+      "importer": "gltf-embeded-image",
+      "uuid": "460c927a-5775-49d8-b701-154ac7fc9cba@d20b3",
+      "displayName": "",
+      "id": "d20b3",
+      "name": "file142.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "4660f": {
+      "importer": "texture",
+      "uuid": "460c927a-5775-49d8-b701-154ac7fc9cba@4660f",
+      "displayName": "",
+      "id": "4660f",
+      "name": "file142.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "460c927a-5775-49d8-b701-154ac7fc9cba@d20b3"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b36cd": {
+      "importer": "gltf-scene",
+      "uuid": "460c927a-5775-49d8-b701-154ac7fc9cba@b36cd",
+      "displayName": "",
+      "id": "b36cd",
+      "name": "Sheep_White.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file142",
+        "uri": "460c927a-5775-49d8-b701-154ac7fc9cba@d20b3"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "460c927a-5775-49d8-b701-154ac7fc9cba@b36cd",
+    "assetFinder": {
+      "meshes": [
+        "460c927a-5775-49d8-b701-154ac7fc9cba@90b79"
+      ],
+      "skeletons": [],
+      "textures": [
+        "460c927a-5775-49d8-b701-154ac7fc9cba@4660f"
+      ],
+      "materials": [
+        "460c927a-5775-49d8-b701-154ac7fc9cba@39489"
+      ],
+      "scenes": [
+        "460c927a-5775-49d8-b701-154ac7fc9cba@b36cd"
+      ]
+    }
+  }
+}

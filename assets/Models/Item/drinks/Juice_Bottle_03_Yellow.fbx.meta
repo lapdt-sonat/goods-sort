@@ -1,0 +1,279 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9",
+  "files": [],
+  "subMetas": {
+    "76450": {
+      "importer": "texture",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@76450",
+      "displayName": "",
+      "id": "76450",
+      "name": "file349.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@9401e"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "478f4": {
+      "importer": "gltf-mesh",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@478f4",
+      "displayName": "",
+      "id": "478f4",
+      "name": "Juice_Bottle_03_Yellow_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9401e": {
+      "importer": "gltf-embeded-image",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@9401e",
+      "displayName": "",
+      "id": "9401e",
+      "name": "file349.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "19b26": {
+      "importer": "gltf-embeded-image",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@19b26",
+      "displayName": "",
+      "id": "19b26",
+      "name": "file350.image",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "0eaf9": {
+      "importer": "texture",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@0eaf9",
+      "displayName": "",
+      "id": "0eaf9",
+      "name": "file348.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fb79b": {
+      "importer": "texture",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@fb79b",
+      "displayName": "",
+      "id": "fb79b",
+      "name": "file350.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@19b26"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f64d6": {
+      "importer": "texture",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@f64d6",
+      "displayName": "",
+      "id": "f64d6",
+      "name": "file351.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "156d0": {
+      "importer": "gltf-material",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@156d0",
+      "displayName": "",
+      "id": "156d0",
+      "name": "Juice_Bottles_01_mt6.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1a183": {
+      "importer": "gltf-material",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@1a183",
+      "displayName": "",
+      "id": "1a183",
+      "name": "Juice_Yellow_mt.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "187d5": {
+      "importer": "gltf-material",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@187d5",
+      "displayName": "",
+      "id": "187d5",
+      "name": "Juice_Yellow_mt2.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "fbed3": {
+      "importer": "gltf-material",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@fbed3",
+      "displayName": "",
+      "id": "fbed3",
+      "name": "Juice_Bottles_01_mt7.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "84d2e": {
+      "importer": "gltf-scene",
+      "uuid": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@84d2e",
+      "displayName": "",
+      "id": "84d2e",
+      "name": "Juice_Bottle_03_Yellow.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file348",
+        "uri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      },
+      {
+        "name": "file349",
+        "uri": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@9401e"
+      },
+      {
+        "name": "file350",
+        "uri": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@19b26"
+      },
+      {
+        "name": "file351",
+        "uri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@84d2e",
+    "assetFinder": {
+      "meshes": [
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@478f4"
+      ],
+      "skeletons": [],
+      "textures": [
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@0eaf9",
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@76450",
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@fb79b",
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@f64d6"
+      ],
+      "materials": [
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@156d0",
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@1a183",
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@187d5",
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@fbed3"
+      ],
+      "scenes": [
+        "fe2cdc34-e822-4794-a19c-54ea1f8c54e9@84d2e"
+      ]
+    }
+  }
+}

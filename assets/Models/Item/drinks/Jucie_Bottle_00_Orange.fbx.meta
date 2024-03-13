@@ -1,0 +1,399 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0",
+  "files": [],
+  "subMetas": {
+    "38983": {
+      "importer": "texture",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@38983",
+      "displayName": "",
+      "id": "38983",
+      "name": "file338.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "61281": {
+      "importer": "texture",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@61281",
+      "displayName": "",
+      "id": "61281",
+      "name": "file238.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c75ac": {
+      "importer": "gltf-mesh",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@c75ac",
+      "displayName": "",
+      "id": "c75ac",
+      "name": "Jucie_Bottle_00_Orange_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d0a7d": {
+      "importer": "gltf-embeded-image",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@d0a7d",
+      "displayName": "",
+      "id": "d0a7d",
+      "name": "file339.image",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "33ddc": {
+      "importer": "gltf-embeded-image",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@33ddc",
+      "displayName": "",
+      "id": "33ddc",
+      "name": "file340.image",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "9bb47": {
+      "importer": "texture",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@9bb47",
+      "displayName": "",
+      "id": "9bb47",
+      "name": "file339.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "225edc2e-1781-45e0-8ada-7288a6d543c0@d0a7d"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "4e1b3": {
+      "importer": "texture",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@4e1b3",
+      "displayName": "",
+      "id": "4e1b3",
+      "name": "file340.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "225edc2e-1781-45e0-8ada-7288a6d543c0@33ddc"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "41f7f": {
+      "importer": "gltf-material",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@41f7f",
+      "displayName": "",
+      "id": "41f7f",
+      "name": "Juice_Bottles_01_mt.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2b60c": {
+      "importer": "gltf-material",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@2b60c",
+      "displayName": "",
+      "id": "2b60c",
+      "name": "Juice_Orange_mt.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9724d": {
+      "importer": "gltf-material",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@9724d",
+      "displayName": "",
+      "id": "9724d",
+      "name": "Juice_Orange_mt1.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "16d2c": {
+      "importer": "gltf-material",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@16d2c",
+      "displayName": "",
+      "id": "16d2c",
+      "name": "Juice_Bottles_01_mt1.material",
+      "userData": {
+        "gltfIndex": 3
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ccb4e": {
+      "importer": "gltf-scene",
+      "uuid": "225edc2e-1781-45e0-8ada-7288a6d543c0@ccb4e",
+      "displayName": "",
+      "id": "ccb4e",
+      "name": "Jucie_Bottle_00_Orange.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file338",
+        "uri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      },
+      {
+        "name": "file339",
+        "uri": "225edc2e-1781-45e0-8ada-7288a6d543c0@d0a7d"
+      },
+      {
+        "name": "file340",
+        "uri": "225edc2e-1781-45e0-8ada-7288a6d543c0@33ddc"
+      },
+      {
+        "name": "file238",
+        "uri": "db://assets/Models/Item/drinks/Textures/Juice_Bottles_01.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "225edc2e-1781-45e0-8ada-7288a6d543c0@ccb4e",
+    "assetFinder": {
+      "meshes": [
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@c75ac"
+      ],
+      "skeletons": [],
+      "textures": [
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@38983",
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@9bb47",
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@4e1b3",
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@61281"
+      ],
+      "materials": [
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@41f7f",
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@2b60c",
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@9724d",
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@16d2c"
+      ],
+      "scenes": [
+        "225edc2e-1781-45e0-8ada-7288a6d543c0@ccb4e"
+      ]
+    },
+    "materials": {
+      "225edc2e-1781-45e0-8ada-7288a6d543c0@2b60c": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "8c8bec69-7462-4040-b9c6-1a36afbc370f@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 0.800000011920929,
+            "transparencyFactor": 0
+          },
+          {},
+          {}
+        ]
+      },
+      "225edc2e-1781-45e0-8ada-7288a6d543c0@9724d": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "metallic": 0,
+            "mainTexture": {
+              "__uuid__": "32fbe7b2-36c7-4745-b9fe-7e2a92c8e00a@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

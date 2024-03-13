@@ -1,0 +1,127 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "10119cc7-966b-4487-b154-688a2c2538bf",
+  "files": [],
+  "subMetas": {
+    "e53ef": {
+      "importer": "gltf-mesh",
+      "uuid": "10119cc7-966b-4487-b154-688a2c2538bf@e53ef",
+      "displayName": "",
+      "id": "e53ef",
+      "name": "TeddyBear_Blue.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e7c55": {
+      "importer": "gltf-embeded-image",
+      "uuid": "10119cc7-966b-4487-b154-688a2c2538bf@e7c55",
+      "displayName": "",
+      "id": "e7c55",
+      "name": "file66.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "5c39d": {
+      "importer": "texture",
+      "uuid": "10119cc7-966b-4487-b154-688a2c2538bf@5c39d",
+      "displayName": "",
+      "id": "5c39d",
+      "name": "file66.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "10119cc7-966b-4487-b154-688a2c2538bf@e7c55"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "6e6eb": {
+      "importer": "gltf-material",
+      "uuid": "10119cc7-966b-4487-b154-688a2c2538bf@6e6eb",
+      "displayName": "",
+      "id": "6e6eb",
+      "name": "Toys_TextureAtlas_mt40.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "51e16": {
+      "importer": "gltf-scene",
+      "uuid": "10119cc7-966b-4487-b154-688a2c2538bf@51e16",
+      "displayName": "",
+      "id": "51e16",
+      "name": "TeddyBear_Blue.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file66",
+        "uri": "10119cc7-966b-4487-b154-688a2c2538bf@e7c55"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "10119cc7-966b-4487-b154-688a2c2538bf@51e16",
+    "assetFinder": {
+      "meshes": [
+        "10119cc7-966b-4487-b154-688a2c2538bf@e53ef"
+      ],
+      "skeletons": [],
+      "textures": [
+        "10119cc7-966b-4487-b154-688a2c2538bf@5c39d"
+      ],
+      "materials": [
+        "10119cc7-966b-4487-b154-688a2c2538bf@6e6eb"
+      ],
+      "scenes": [
+        "10119cc7-966b-4487-b154-688a2c2538bf@51e16"
+      ]
+    }
+  }
+}

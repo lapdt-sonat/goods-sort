@@ -1,0 +1,155 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "e4817664-81ba-4db8-afc7-feec38460176",
+  "files": [],
+  "subMetas": {
+    "1de00": {
+      "importer": "gltf-mesh",
+      "uuid": "e4817664-81ba-4db8-afc7-feec38460176@1de00",
+      "displayName": "",
+      "id": "1de00",
+      "name": "ToGo_Cup_Material0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3ec4a": {
+      "importer": "texture",
+      "uuid": "e4817664-81ba-4db8-afc7-feec38460176@3ec4a",
+      "displayName": "",
+      "id": "3ec4a",
+      "name": "file309.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/drinks/Textures/ToGo_Cups.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "86c7d": {
+      "importer": "texture",
+      "uuid": "e4817664-81ba-4db8-afc7-feec38460176@86c7d",
+      "displayName": "",
+      "id": "86c7d",
+      "name": "file310.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/Item/drinks/Textures/ToGo_Lids.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d1030": {
+      "importer": "gltf-material",
+      "uuid": "e4817664-81ba-4db8-afc7-feec38460176@d1030",
+      "displayName": "",
+      "id": "d1030",
+      "name": "ToGo_Cups_mt2.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b1968": {
+      "importer": "gltf-material",
+      "uuid": "e4817664-81ba-4db8-afc7-feec38460176@b1968",
+      "displayName": "",
+      "id": "b1968",
+      "name": "ToGo_Lids_mt2.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bd933": {
+      "importer": "gltf-scene",
+      "uuid": "e4817664-81ba-4db8-afc7-feec38460176@bd933",
+      "displayName": "",
+      "id": "bd933",
+      "name": "ToGo_Cup.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file309",
+        "uri": "db://assets/Models/Item/drinks/Textures/ToGo_Cups.png"
+      },
+      {
+        "name": "file310",
+        "uri": "db://assets/Models/Item/drinks/Textures/ToGo_Lids.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "e4817664-81ba-4db8-afc7-feec38460176@bd933",
+    "assetFinder": {
+      "meshes": [
+        "e4817664-81ba-4db8-afc7-feec38460176@1de00"
+      ],
+      "skeletons": [],
+      "textures": [
+        "e4817664-81ba-4db8-afc7-feec38460176@3ec4a",
+        "e4817664-81ba-4db8-afc7-feec38460176@86c7d"
+      ],
+      "materials": [
+        "e4817664-81ba-4db8-afc7-feec38460176@d1030",
+        "e4817664-81ba-4db8-afc7-feec38460176@b1968"
+      ],
+      "scenes": [
+        "e4817664-81ba-4db8-afc7-feec38460176@bd933"
+      ]
+    }
+  }
+}

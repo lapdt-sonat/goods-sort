@@ -1,0 +1,189 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0b01965b-0aff-4f84-bfc5-945385a5d95b",
+  "files": [],
+  "subMetas": {
+    "5a418": {
+      "importer": "gltf-mesh",
+      "uuid": "0b01965b-0aff-4f84-bfc5-945385a5d95b@5a418",
+      "displayName": "",
+      "id": "5a418",
+      "name": "SodaCan_01.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ef01a": {
+      "importer": "gltf-embeded-image",
+      "uuid": "0b01965b-0aff-4f84-bfc5-945385a5d95b@ef01a",
+      "displayName": "",
+      "id": "ef01a",
+      "name": "file157.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "c270b": {
+      "importer": "texture",
+      "uuid": "0b01965b-0aff-4f84-bfc5-945385a5d95b@c270b",
+      "displayName": "",
+      "id": "c270b",
+      "name": "file157.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "0b01965b-0aff-4f84-bfc5-945385a5d95b@ef01a"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e5b5a": {
+      "importer": "gltf-material",
+      "uuid": "0b01965b-0aff-4f84-bfc5-945385a5d95b@e5b5a",
+      "displayName": "",
+      "id": "e5b5a",
+      "name": "Soda_Cans_01_mt1.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "bb0f0": {
+      "importer": "gltf-scene",
+      "uuid": "0b01965b-0aff-4f84-bfc5-945385a5d95b@bb0f0",
+      "displayName": "",
+      "id": "bb0f0",
+      "name": "SodaCan_01.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "file157",
+        "uri": "0b01965b-0aff-4f84-bfc5-945385a5d95b@ef01a"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "0b01965b-0aff-4f84-bfc5-945385a5d95b@bb0f0",
+    "assetFinder": {
+      "meshes": [
+        "0b01965b-0aff-4f84-bfc5-945385a5d95b@5a418"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0b01965b-0aff-4f84-bfc5-945385a5d95b@c270b"
+      ],
+      "materials": [
+        "0b01965b-0aff-4f84-bfc5-945385a5d95b@e5b5a"
+      ],
+      "scenes": [
+        "0b01965b-0aff-4f84-bfc5-945385a5d95b@bb0f0"
+      ]
+    },
+    "materials": {
+      "0b01965b-0aff-4f84-bfc5-945385a5d95b@e5b5a": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "970ddab7-45b5-413b-80bc-85d889d91cdd@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "albedoScale": 0.800000011920929,
+            "transparencyFactor": 0
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}
