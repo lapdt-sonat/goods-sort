@@ -34,6 +34,8 @@ export class ShelfGroup extends Component {
         const shelfData: ShelfData = shelves[i + j];
         if (shelfData.spawn) {
           const newShelf = this.spawnShelf(shelfData, i, j);
+          // console.log("new shelf", newShelf);
+          this.node.addChild(newShelf);
           this._shelfGroup.push(newShelf);
         }
       }
@@ -42,15 +44,20 @@ export class ShelfGroup extends Component {
 
   spawnShelf(shelfData: ShelfData, x: number, y: number): Node {
     const shelf: Node = instantiate(this.shelfPrefab);
-    const shelfPosition = new Vec3(x * SHELF_WIDTH, y * SHELF_HEIGHT);
+    const shelfPosition = new Vec3(x * SHELF_WIDTH, y * SHELF_HEIGHT, 0);
 
-    console.log("spawn shelf", shelfData, shelfPosition);
+    // console.log("spawn shelf", shelfData, shelfPosition);
+
+    // console.log("origin vector", this._originVector);
 
     Vec3.add(shelfPosition, shelfPosition, this._originVector);
     shelf.setPosition(shelfPosition);
 
     for (let i = 0; i < shelfData.slots.length; i++) {
-      const itemPrefab = this.itemsPool.getItem(shelfData.slots[i]);
+      const itemPrefab =
+        shelfData.slots[i] !== ""
+          ? this.itemsPool.getItem(shelfData.slots[i])
+          : null;
       if (itemPrefab) {
         const item = instantiate(itemPrefab);
         shelf.getComponent(Shelf)!.insertItem(i, item);
@@ -64,7 +71,9 @@ export class ShelfGroup extends Component {
     const x = width / 2;
     const y = (height * 0.75) / 2;
 
-    this._originVector = new Vec3(x, y, 0);
-    Vec3.invert(this._originVector, this._originVector);
+    this._originVector = new Vec3(-x, -y, 0);
+
+    // console.log(this._originVector);
+    // Vec3.invert(this._originVector, this._originVector);
   }
 }

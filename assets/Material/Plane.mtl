@@ -44,9 +44,20 @@
   ],
   "_props": [
     {
+      "mainColor": {
+        "__type__": "cc.Color",
+        "r": 235,
+        "g": 206,
+        "b": 156,
+        "a": 255
+      },
       "roughness": 0,
-      "metallic": 0,
-      "specularIntensity": 0
+      "metallic": 0.065,
+      "specularIntensity": 0,
+      "mainTexture": {
+        "__uuid__": "ffb33ca7-f759-49be-8b3c-383657026f7e@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      }
     },
     {},
     {}

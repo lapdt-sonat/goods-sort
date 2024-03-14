@@ -10,13 +10,17 @@ import {
   Input,
   input,
   Node,
+  physics,
   PhysicsSystem,
+  Vec2,
+  Vec3,
 } from "cc";
 import { ShelfGroup } from "./ShelfGroup";
 import { UIController } from "./UIController";
 import { EndcardController } from "./EndcardController";
 import playableHelper from "./helper/playable";
 import { AudioController } from "./AudioController";
+import { Shelf } from "./Shelf";
 const { ccclass, property } = _decorator;
 const SHELF_HEIGHT = 0.75;
 const SHELF_WIDTH = 1;
@@ -45,9 +49,12 @@ export class GameController extends Component {
   public cameraComponent: Camera = null!;
 
   private _isTouched = false;
-  private _isDragging = false;
   private _isInteracted = false;
   private _ray: geometry.Ray = new geometry.Ray();
+  private _currentItemNode: Node | null = null;
+  private _offset: Vec3 = new Vec3(0, -0.3, 0);
+  private _prevShelf: Shelf | null = null;
+  private _hitItemIndex = -1;
 
   protected onLoad(): void {
     const androidUrl = "";
@@ -73,43 +80,52 @@ export class GameController extends Component {
       this._ray
     );
 
-    console.log(this._ray);
     if (PhysicsSystem.instance.raycast(this._ray)) {
-      this._isTouched = true;
       const raycastResults = PhysicsSystem.instance.raycastResults;
-      console.log("raycast result", raycastResults);
-      // this.cubeGroup.handleTap(PhysicsSystem.instance.raycastResults);
+
+      if (raycastResults.length === 2) {
+        const pickedItem = raycastResults[1].collider.node;
+        this._currentItemNode = pickedItem;
+        // this._startWorldPosition.set(this._currentItemNode.worldPosition);
+        // this._ray.computeHit(this._offset, raycastResults[1].distance);
+        // this._offset.subtract(this._startWorldPosition);
+
+        const resultToShelf = raycastResults.find(
+          (result) => result.collider.node.name === "Shelf"
+        );
+        this._prevShelf = resultToShelf.collider.node.getComponent(Shelf);
+        this._prevShelf.calcSlotIndex(
+          new Vec2(resultToShelf.hitPoint.x, resultToShelf.hitPoint.y)
+        );
+
+        pickedItem.emit("picked");
+        this._isTouched = true;
+      }
     }
 
     if (!this._isInteracted) {
-      // this.audioController.playBgMusic();
-      // this.stopTutAnim();
       this._isInteracted = true;
     }
   }
 
   onTouchMove(event: EventTouch) {
-    // switch (this._touchGesture) {
-    //   case TouchGesture.DRAG: {
-    //     if (this._isDragging) {
-    //       this.cubeGroup.rotateGroup(
-    //         event.getDelta(),
-    //         this._cameraPosition,
-    //         this._cameraRotation
-    //       );
-    //     } else if (this._isTouched && this.isRealMove(event.getDelta())) {
-    //       this._isDragging = true;
-    //     }
-    //     break;
-    //   }
-    //   case TouchGesture.ZOOM:
-    //     this.handleZoom(event);
-    //     break;
-    //   default:
-    // }
+    if (this._isTouched && this._currentItemNode) {
+      // this._isDragging = true;
+      const calculatedPos = this.getItemPosition(event);
+      // const newPos = new Vec3(
+      //   calculatedPos.x,
+      //   calculatedPos.y,
+      //   this._startWorldPosition.z
+      // );
+
+      this._currentItemNode.setWorldPosition(calculatedPos);
+      // this._currentItemNode.emit("drag", newPos);
+    }
   }
 
   onTouchEnd(event: EventTouch) {
+    let hasNewPlace = false;
+
     this.cameraComponent.screenPointToRay(
       event.getLocationX(),
       event.getLocationY(),
@@ -117,15 +133,71 @@ export class GameController extends Component {
     );
     if (PhysicsSystem.instance.raycast(this._ray)) {
       const raycastResults = PhysicsSystem.instance.raycastResults;
-      console.log("touch end result", raycastResults);
-      // this.cubeGroup.handleTap(PhysicsSystem.instance.raycastResults);
+      const resultToShelf = raycastResults.find(
+        (result) => result.collider.node.name === "Shelf"
+      );
+
+      if (resultToShelf && this._prevShelf) {
+        hasNewPlace = this.processHitShelf(resultToShelf);
+        this._prevShelf.removeItem(this._currentItemNode, this._hitItemIndex);
+      }
+    }
+
+    if (this._isTouched && this._currentItemNode && !hasNewPlace) {
+      this._currentItemNode?.emit("release");
     }
 
     this.resetTouchStates();
   }
 
+  processHitShelf(result: physics.PhysicsRayResult): boolean {
+    const hitPoint = new Vec3(result.hitPoint);
+    const shelf = result.collider.node.getComponent(Shelf);
+
+    const slotIndex = shelf.calcSlotIndex(new Vec2(hitPoint.x, hitPoint.y));
+    console.log("slotIndex", slotIndex);
+
+    if (slotIndex !== -1) {
+      this.moves--;
+      // this.uiController.updateMoves(this.moves);
+      shelf.updateItemToShelf(slotIndex, this._currentItemNode);
+      const isSoldOut = shelf.checkWinCondition();
+
+      if (isSoldOut) {
+        this.audioController.playSoldOutSfx();
+        shelf.close();
+        // this.uiController.showWinScreen();
+      }
+      // this.audioController.("drop");
+      return true;
+    }
+    return false;
+  }
+
   resetTouchStates() {
     this._isTouched = false;
-    this._isDragging = false;
+
+    this._currentItemNode = null;
+  }
+
+  getItemPosition(event: EventTouch): Vec3 {
+    let ray = this.cameraComponent.screenPointToRay(
+      event.getLocationX(),
+      event.getLocationY()
+    );
+
+    const direction = new Vec3(ray.d);
+    const plane = new Vec3(0, 0, 0.3);
+    const originPoint = new Vec3(ray.o);
+
+    const temp = (plane.z - originPoint.z) / direction.z;
+    const x = originPoint.x + temp * direction.x;
+    const y = originPoint.y + temp * direction.y;
+
+    const position = new Vec3(x, y, plane.z);
+    Vec3.add(position, position, this._offset);
+    return position;
+
+    // Assuming you have a ground plane for positioning
   }
 }

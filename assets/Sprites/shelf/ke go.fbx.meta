@@ -130,15 +130,13 @@
         "_objFlags": 0,
         "_native": "",
         "_effectAsset": {
-          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__uuid__": "1baf0fc9-befa-459c-8bdd-af1a450a0319",
           "__expectedType__": "cc.EffectAsset"
         },
         "_techIdx": 0,
         "_defines": [
           {
-            "DCC_APP_NAME": 2,
-            "USE_ALBEDO_MAP": true,
-            "HAS_EXPORTED_METALLIC": true
+            "USE_ALBEDO_MAP": true
           },
           {},
           {}
@@ -174,13 +172,20 @@
         ],
         "_props": [
           {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 252,
+              "g": 229,
+              "b": 188,
+              "a": 255
+            },
+            "roughness": 0,
+            "metallic": 0,
+            "specularIntensity": 0,
             "mainTexture": {
               "__uuid__": "3a48e927-93c6-4181-b7a4-427980db3d8a@6c48a",
               "__expectedType__": "cc.Texture2D"
-            },
-            "shininessExponent": 19.999999521047936,
-            "specularFactor": 0.25,
-            "transparencyFactor": 0
+            }
           },
           {},
           {}
