@@ -58,7 +58,10 @@ export class Item extends Component {
   placeToPos(worldPos: Vec3, slotItemPos: Vec3) {
     const upPos = new Vec3(worldPos);
     // Vec3.add(upPos, worldPos, this._pickUpVector);
+    console.log("slot in shelf pos", slotItemPos);
+    this.node.setWorldPosition(worldPos);
     this.node.setPosition(slotItemPos);
+    this._originPos = new Vec3(slotItemPos);
 
     // this.node.setWorldPosition(worldPos);
     // tween(this.node)
