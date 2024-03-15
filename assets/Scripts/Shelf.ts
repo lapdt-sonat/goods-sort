@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, Vec2, Vec3 } from "cc";
+import { _decorator, Component, Node, Vec2, Vec3, Animation } from "cc";
 import { Item } from "./Item";
 const { ccclass, property } = _decorator;
 
@@ -13,9 +13,16 @@ export class Shelf extends Component {
   @property({ type: [Node] })
   public slots: Node[] = [null, null, null];
 
+  @property({ type: Node })
+  public door: Node | null = null;
+
+  private _closed: boolean = false;
+
   private _hasItemSlot: boolean[] = [false, false, false];
 
-  start() {}
+  start() {
+    this.door.active = false;
+  }
 
   update(deltaTime: number) {}
 
@@ -106,6 +113,60 @@ export class Shelf extends Component {
   }
 
   close() {
-    console.log("animation shelf close");
+    this.door.active = true;
+    const animation = this.node.getComponent(Animation);
+    animation.play("close-shelf");
+    this._closed = true;
+    // console.log("animation shelf close");
+  }
+
+  isClosed() {
+    return this._closed;
+  }
+
+  isGoodTarget(): boolean {
+    let checker = true;
+
+    checker = !this._closed;
+
+    const numberOfItemInShelf = this._hasItemSlot.filter((slot) => slot).length;
+    if (numberOfItemInShelf !== 2) {
+      checker = false;
+    }
+
+    const items = this.slots.filter((slot) => slot !== null);
+    if (items.length !== 2) {
+      checker = false;
+    } else {
+      checker = items[0].name === items[1].name;
+    }
+
+    return checker;
+  }
+
+  getRepresentItem() {
+    return this.slots.find((slot) => slot !== null);
+  }
+
+  getWorldBlankSpot() {
+    const worldBlankSpot = new Vec3(0, 0, 0);
+    Vec3.add(
+      worldBlankSpot,
+      this.node.worldPosition,
+      SLOT_POS[this._hasItemSlot.indexOf(false)]
+    );
+
+    return worldBlankSpot;
+  }
+
+  checkRepresentItem(name: string) {
+    const item = this.slots.find((slot) => slot !== null && slot.name === name);
+
+    if (item) {
+      const itemWorldPos = new Vec3(item.worldPosition);
+      return { hasItem: true, itemWorldPos };
+    }
+
+    return { hasItem: false, itemWorldPos: new Vec3() };
   }
 }

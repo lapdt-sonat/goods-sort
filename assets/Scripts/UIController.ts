@@ -1,14 +1,21 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node } from "cc";
 const { ccclass, property } = _decorator;
 
-@ccclass('UIController')
+@ccclass("UIController")
 export class UIController extends Component {
-    start() {
+  @property(Node)
+  public callToPlay: Node = null!;
 
-    }
+  @property(Node)
+  public tutHand: Node = null!;
 
-    update(deltaTime: number) {
-        
+  start() {}
+
+  update(deltaTime: number) {}
+
+  removeCTP() {
+    if (this.callToPlay.active) {
+      this.callToPlay.active = false;
     }
+  }
 }
-

@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.24",
+  "importer": "image",
+  "imported": true,
+  "uuid": "722fa9c4-cbe4-4f50-a303-1a161a4cf6cf",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "722fa9c4-cbe4-4f50-a303-1a161a4cf6cf@6c48a",
+      "displayName": "maria_compressed",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 1,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "722fa9c4-cbe4-4f50-a303-1a161a4cf6cf",
+        "visible": true
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "flipVertical": false,
+    "compressSettings": {
+      "useCompressTexture": false
+    },
+    "redirect": "722fa9c4-cbe4-4f50-a303-1a161a4cf6cf@6c48a"
+  }
+}

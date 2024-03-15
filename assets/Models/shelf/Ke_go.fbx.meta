@@ -1,0 +1,171 @@
+{
+  "ver": "2.3.0",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "0cc02582-077a-4bcb-b31d-acfcf3f77605",
+  "files": [],
+  "subMetas": {
+    "2425b": {
+      "importer": "gltf-mesh",
+      "uuid": "0cc02582-077a-4bcb-b31d-acfcf3f77605@2425b",
+      "displayName": "",
+      "id": "2425b",
+      "name": "Ke_go.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9c80d": {
+      "importer": "texture",
+      "uuid": "0cc02582-077a-4bcb-b31d-acfcf3f77605@9c80d",
+      "displayName": "",
+      "id": "9c80d",
+      "name": "pasted__pasted__file22.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": false,
+        "imageUuidOrDatabaseUri": "db://assets/Models/shelf/Ke_go.png"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a1928": {
+      "importer": "gltf-material",
+      "uuid": "0cc02582-077a-4bcb-b31d-acfcf3f77605@a1928",
+      "displayName": "",
+      "id": "a1928",
+      "name": "pasted__pasted__Ke_go_mt.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "07bd7": {
+      "importer": "gltf-scene",
+      "uuid": "0cc02582-077a-4bcb-b31d-acfcf3f77605@07bd7",
+      "displayName": "",
+      "id": "07bd7",
+      "name": "Ke_go.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "pasted__pasted__file22",
+        "uri": "db://assets/Models/shelf/Ke_go.png"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "redirect": "0cc02582-077a-4bcb-b31d-acfcf3f77605@07bd7",
+    "assetFinder": {
+      "meshes": [
+        "0cc02582-077a-4bcb-b31d-acfcf3f77605@2425b"
+      ],
+      "skeletons": [],
+      "textures": [
+        "0cc02582-077a-4bcb-b31d-acfcf3f77605@9c80d"
+      ],
+      "materials": [
+        "0cc02582-077a-4bcb-b31d-acfcf3f77605@a1928"
+      ],
+      "scenes": [
+        "0cc02582-077a-4bcb-b31d-acfcf3f77605@07bd7"
+      ]
+    },
+    "materials": {
+      "0cc02582-077a-4bcb-b31d-acfcf3f77605@a1928": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "0cc02582-077a-4bcb-b31d-acfcf3f77605@9c80d",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "transparencyFactor": 0
+          },
+          {},
+          {}
+        ]
+      }
+    }
+  }
+}

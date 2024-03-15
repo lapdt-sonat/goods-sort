@@ -28,10 +28,12 @@ export class ShelfGroup extends Component {
 
     const { width, height, shelves } = mapObj;
     this.calculateOriginVector(width, height);
+    let shelfIndex = 0;
 
     for (let i = 0; i < width; i++) {
       for (let j = 0; j < height; j++) {
-        const shelfData: ShelfData = shelves[i + j];
+        const shelfData: ShelfData = shelves[shelfIndex];
+        shelfIndex++;
         if (shelfData.spawn) {
           const newShelf = this.spawnShelf(shelfData, i, j);
           // console.log("new shelf", newShelf);

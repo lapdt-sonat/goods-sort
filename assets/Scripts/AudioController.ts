@@ -6,18 +6,42 @@ export class AudioController extends Component {
   @property({ type: AudioSource })
   public pickSfx: AudioSource = null!;
 
+  @property(AudioSource)
+  public placeSfx: AudioSource = null!;
+
   @property({ type: AudioSource })
   public soldOutSfx: AudioSource = null!;
+
+  @property({ type: AudioSource })
+  public winSfx: AudioSource = null!;
 
   start() {}
 
   update(deltaTime: number) {}
 
   public playPickSfx() {
-    this.pickSfx.play();
+    //@ts-ignore
+    const volume = window.gameVolume ? window.gameVolume : 1;
+    this.pickSfx.playOneShot(this.pickSfx.clip, volume);
+  }
+
+  public playPlaceSfx() {
+    //@ts-ignore
+    const volume = window.gameVolume ? window.gameVolume : 1;
+    this.placeSfx.playOneShot(this.placeSfx.clip, volume);
   }
 
   public playSoldOutSfx() {
-    this.soldOutSfx.play();
+    //@ts-ignore
+    const volume = window.gameVolume ? window.gameVolume : 1;
+
+    this.soldOutSfx.playOneShot(this.soldOutSfx.clip, volume);
+  }
+
+  public playWinSfx() {
+    //@ts-ignore
+    const volume = window.gameVolume ? window.gameVolume : 1;
+
+    this.winSfx.playOneShot(this.winSfx.clip, volume);
   }
 }

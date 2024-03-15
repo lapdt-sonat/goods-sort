@@ -10,6 +10,9 @@ const itemIndexMap: Record<string, number> = {
   pop_bottle_1: 5,
   togo_cup_1: 6,
   water_bottle_1: 7,
+  soda_3: 8,
+  juice_green: 9,
+  soda_4: 10,
 };
 
 @ccclass("ItemsPool")

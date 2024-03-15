@@ -42,32 +42,26 @@ export class Item extends Component {
   }
 
   onDrag(newPos: Vec3) {
-    // const dragEndpoint = new Vec3(
-    //   (pointer.x / SCREEN_WIDTH) * 5,
-    //   (pointer.y / SCREEN_HEIGHT) * 12,
-    //   this.node.position.z
-    // );
-
-    // Vec3.subtract(dragEndpoint, dragEndpoint, new Vec3(2.5, 6, 0));
+    Vec3.add(newPos, newPos, this._pickUpVector);
 
     this.node.setWorldPosition(newPos);
-
-    // tween(this.node).to(0.1, { worldPosition: dragEndpoint }).start();
   }
 
   placeToPos(worldPos: Vec3, slotItemPos: Vec3) {
-    const upPos = new Vec3(worldPos);
-    // Vec3.add(upPos, worldPos, this._pickUpVector);
-    console.log("slot in shelf pos", slotItemPos);
-    this.node.setWorldPosition(worldPos);
-    this.node.setPosition(slotItemPos);
     this._originPos = new Vec3(slotItemPos);
 
     // this.node.setWorldPosition(worldPos);
-    // tween(this.node)
-    //   .to(0.2, { worldPosition: upPos })
-    //   .to(0.2, { worldPosition: worldPos })
-    //   .union()
-    //   .start();
+    tween(this.node)
+      .to(
+        0.1,
+        { worldPosition: worldPos },
+        {
+          onComplete: () => {
+            this.node.setPosition(slotItemPos);
+          },
+        }
+      )
+      .union()
+      .start();
   }
 }
