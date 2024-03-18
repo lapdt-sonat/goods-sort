@@ -59,7 +59,7 @@
     "_prefab": null,
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 78
+      "__id__": 79
     },
     "_id": "59497d61-2ca5-4c08-ba1c-aeab3accd9a2"
   },
@@ -599,7 +599,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "map": "{\"width\":5,\"height\":12,\"shelves\":[{\"index\":0,\"spawn\":true,\"slots\":[\"\",\"soda_2\",\"pop_bottle_1\"]},{\"index\":1,\"spawn\":true,\"slots\":[\"coffee_1\",\"juice_strawberry\",\"soda_3\"]},{\"index\":2,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"soda_1\",\"juice_green\"]},{\"index\":3,\"spawn\":true,\"slots\":[\"\",\"soda_1\",\"togo_cup_1\"]},{\"index\":4,\"spawn\":true,\"slots\":[\"soda_2\",\"togo_cup_1\",\"soda_1\"]},{\"index\":5,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_4\",\"soda_4\"]},{\"index\":6,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"\",\"pop_bottle_1\"]},{\"index\":7,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"soda_2\",\"soda_2\"]},{\"index\":8,\"spawn\":true,\"slots\":[\"soda_2\",\"soda_3\",\"juice_orange\"]},{\"index\":9,\"spawn\":true,\"slots\":[\"coffee_1\",\"soda_4\",\"togo_cup_1\"]},{\"index\":10,\"spawn\":true,\"slots\":[\"juice_green\",\"pop_bottle_1\",\"juice_green\"]},{\"index\":11,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_strawberry\",\"pop_bottle_1\"]},{\"index\":12,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_4\",\"soda_3\"]},{\"index\":13,\"spawn\":true,\"slots\":[\"\",\"soda_1\",\"soda_1\"]},{\"index\":14,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_3\",\"soda_4\"]},{\"index\":15,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_orange\",\"pop_bottle_1\"]},{\"index\":16,\"spawn\":true,\"slots\":[\"coffee_1\",\"coffee_1\",\"\"]},{\"index\":17,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"coffee_1\",\"coffee_1\"]},{\"index\":18,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"coffee_1\",\"juice_strawberry\"]},{\"index\":19,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_green\",\"juice_orange\"]},{\"index\":20,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_3\",\"water_bottle_1\"]},{\"index\":21,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"soda_2\",\"soda_4\"]},{\"index\":22,\"spawn\":true,\"slots\":[\"\",\"juice_strawberry\",\"juice_strawberry\"]},{\"index\":23,\"spawn\":true,\"slots\":[\"coffee_1\",\"pop_bottle_1\",\"juice_green\"]},{\"index\":24,\"spawn\":true,\"slots\":[\"soda_2\",\"soda_4\",\"soda_3\"]},{\"index\":25,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_4\",\"\"]},{\"index\":26,\"spawn\":true,\"slots\":[\"juice_orange\",\"soda_3\",\"juice_strawberry\"]},{\"index\":27,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_green\",\"juice_orange\"]},{\"index\":28,\"spawn\":true,\"slots\":[\"soda_2\",\"water_bottle_1\",\"coffee_1\"]},{\"index\":29,\"spawn\":true,\"slots\":[\"juice_green\",\"coffee_1\",\"soda_3\"]},{\"index\":30,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"soda_1\",\"\"]},{\"index\":31,\"spawn\":true,\"slots\":[\"soda_4\",\"\",\"soda_4\"]},{\"index\":32,\"spawn\":true,\"slots\":[\"soda_1\",\"pop_bottle_1\",\"soda_3\"]},{\"index\":33,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_4\",\"water_bottle_1\"]},{\"index\":34,\"spawn\":true,\"slots\":[\"coffee_1\",\"soda_2\",\"togo_cup_1\"]},{\"index\":35,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_orange\",\"soda_4\"]},{\"index\":36,\"spawn\":true,\"slots\":[\"soda_2\",\"togo_cup_1\",\"\"]},{\"index\":37,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_strawberry\",\"soda_4\"]},{\"index\":38,\"spawn\":true,\"slots\":[\"coffee_1\",\"juice_orange\",\"soda_3\"]},{\"index\":39,\"spawn\":true,\"slots\":[\"soda_2\",\"water_bottle_1\",\"pop_bottle_1\"]},{\"index\":40,\"spawn\":true,\"slots\":[\"soda_3\",\"juice_strawberry\",\"juice_orange\"]},{\"index\":41,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"water_bottle_1\",\"juice_orange\"]},{\"index\":42,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_strawberry\",\"togo_cup_1\"]},{\"index\":43,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"togo_cup_1\",\"\"]},{\"index\":44,\"spawn\":true,\"slots\":[\"soda_1\",\"juice_orange\",\"juice_strawberry\"]},{\"index\":45,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"pop_bottle_1\",\"soda_2\"]},{\"index\":46,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_1\",\"\"]},{\"index\":47,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"togo_cup_1\",\"togo_cup_1\"]},{\"index\":48,\"spawn\":true,\"slots\":[\"soda_1\",\"water_bottle_1\",\"juice_green\"]},{\"index\":49,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_2\",\"juice_strawberry\"]},{\"index\":50,\"spawn\":true,\"slots\":[\"juice_green\",\"juice_green\",\"juice_strawberry\"]},{\"index\":51,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_1\",\"soda_2\"]},{\"index\":52,\"spawn\":true,\"slots\":[\"soda_2\",\"juice_strawberry\",\"coffee_1\"]},{\"index\":53,\"spawn\":true,\"slots\":[\"soda_3\",\"\",\"soda_3\"]},{\"index\":54,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_strawberry\",\"pop_bottle_1\"]},{\"index\":55,\"spawn\":true,\"slots\":[\"juice_orange\",\"coffee_1\",\"\"]},{\"index\":56,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"\",\"juice_green\"]},{\"index\":57,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_orange\",\"\"]},{\"index\":58,\"spawn\":true,\"slots\":[\"\",\"coffee_1\",\"pop_bottle_1\"]},{\"index\":59,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_2\",\"soda_3\"]}]}",
+    "map": "{\"width\":5,\"height\":12,\"shelves\":[{\"index\":0,\"spawn\":true,\"slots\":[\"\",\"soda_2\",\"pop_bottle_1\"]},{\"index\":1,\"spawn\":true,\"slots\":[\"coffee_1\",\"juice_strawberry\",\"soda_3\"]},{\"index\":2,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"soda_1\",\"juice_green\"]},{\"index\":3,\"spawn\":true,\"slots\":[\"\",\"soda_1\",\"togo_cup_1\"]},{\"index\":4,\"spawn\":true,\"slots\":[\"soda_2\",\"togo_cup_1\",\"soda_1\"]},{\"index\":5,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_4\",\"soda_4\"]},{\"index\":6,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"\",\"pop_bottle_1\"]},{\"index\":7,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"soda_2\",\"soda_2\"]},{\"index\":8,\"spawn\":true,\"slots\":[\"soda_2\",\"soda_3\",\"juice_orange\"]},{\"index\":9,\"spawn\":true,\"slots\":[\"coffee_1\",\"soda_4\",\"togo_cup_1\"]},{\"index\":10,\"spawn\":true,\"slots\":[\"juice_green\",\"pop_bottle_1\",\"juice_green\"]},{\"index\":11,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_strawberry\",\"pop_bottle_1\"]},{\"index\":12,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_4\",\"soda_3\"]},{\"index\":13,\"spawn\":true,\"slots\":[\"\",\"soda_1\",\"soda_1\"]},{\"index\":14,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_3\",\"soda_4\"]},{\"index\":15,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_orange\",\"pop_bottle_1\"]},{\"index\":16,\"spawn\":true,\"slots\":[\"coffee_1\",\"coffee_1\",\"\"]},{\"index\":17,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"water_bottle_1\",\"\"]},{\"index\":18,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"coffee_1\",\"juice_strawberry\"]},{\"index\":19,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_green\",\"juice_orange\"]},{\"index\":20,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_3\",\"water_bottle_1\"]},{\"index\":21,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"soda_2\",\"soda_4\"]},{\"index\":22,\"spawn\":true,\"slots\":[\"\",\"juice_strawberry\",\"juice_strawberry\"]},{\"index\":23,\"spawn\":true,\"slots\":[\"coffee_1\",\"pop_bottle_1\",\"juice_green\"]},{\"index\":24,\"spawn\":true,\"slots\":[\"soda_2\",\"soda_4\",\"soda_3\"]},{\"index\":25,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_4\",\"\"]},{\"index\":26,\"spawn\":true,\"slots\":[\"juice_orange\",\"soda_3\",\"juice_strawberry\"]},{\"index\":27,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_green\",\"juice_orange\"]},{\"index\":28,\"spawn\":true,\"slots\":[\"soda_2\",\"water_bottle_1\",\"coffee_1\"]},{\"index\":29,\"spawn\":true,\"slots\":[\"juice_green\",\"coffee_1\",\"soda_3\"]},{\"index\":30,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"soda_1\",\"\"]},{\"index\":31,\"spawn\":true,\"slots\":[\"soda_4\",\"\",\"soda_4\"]},{\"index\":32,\"spawn\":true,\"slots\":[\"soda_1\",\"pop_bottle_1\",\"soda_3\"]},{\"index\":33,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_4\",\"water_bottle_1\"]},{\"index\":34,\"spawn\":true,\"slots\":[\"\",\"soda_2\",\"soda_2\"]},{\"index\":35,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_orange\",\"soda_4\"]},{\"index\":36,\"spawn\":true,\"slots\":[\"soda_2\",\"togo_cup_1\",\"\"]},{\"index\":37,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_strawberry\",\"soda_4\"]},{\"index\":38,\"spawn\":true,\"slots\":[\"coffee_1\",\"juice_orange\",\"soda_3\"]},{\"index\":39,\"spawn\":true,\"slots\":[\"soda_2\",\"water_bottle_1\",\"pop_bottle_1\"]},{\"index\":40,\"spawn\":true,\"slots\":[\"soda_3\",\"juice_strawberry\",\"juice_orange\"]},{\"index\":41,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"water_bottle_1\",\"juice_orange\"]},{\"index\":42,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_strawberry\",\"togo_cup_1\"]},{\"index\":43,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"togo_cup_1\",\"\"]},{\"index\":44,\"spawn\":true,\"slots\":[\"soda_1\",\"juice_orange\",\"juice_strawberry\"]},{\"index\":45,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"pop_bottle_1\",\"soda_2\"]},{\"index\":46,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_1\",\"\"]},{\"index\":47,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"togo_cup_1\",\"togo_cup_1\"]},{\"index\":48,\"spawn\":true,\"slots\":[\"soda_1\",\"water_bottle_1\",\"juice_green\"]},{\"index\":49,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_2\",\"juice_strawberry\"]},{\"index\":50,\"spawn\":true,\"slots\":[\"juice_green\",\"juice_green\",\"\"]},{\"index\":51,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_1\",\"soda_2\"]},{\"index\":52,\"spawn\":true,\"slots\":[\"soda_2\",\"juice_strawberry\",\"coffee_1\"]},{\"index\":53,\"spawn\":true,\"slots\":[\"soda_3\",\"\",\"soda_3\"]},{\"index\":54,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_strawberry\",\"pop_bottle_1\"]},{\"index\":55,\"spawn\":true,\"slots\":[\"juice_orange\",\"coffee_1\",\"\"]},{\"index\":56,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"\",\"juice_green\"]},{\"index\":57,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_orange\",\"\"]},{\"index\":58,\"spawn\":true,\"slots\":[\"\",\"coffee_1\",\"pop_bottle_1\"]},{\"index\":59,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_2\",\"soda_3\"]}]}",
     "moves": 8,
     "shelfGroup": {
       "__id__": 19
@@ -890,7 +890,6 @@
     "callToPlay": {
       "__id__": 34
     },
-    "tutHand": null,
     "_id": "87e73JrfhKCJCE4OhjKRtc"
   },
   {
@@ -1480,7 +1479,7 @@
         "__id__": 43
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 47
@@ -2121,7 +2120,7 @@
     },
     "_type": 0,
     "_fillType": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
       "x": 0,
@@ -2193,7 +2192,7 @@
   {
     "__type__": "cc.Node",
     "_name": "Label",
-    "_objFlags": 512,
+    "_objFlags": 0,
     "_parent": {
       "__id__": 64
     },
@@ -2387,7 +2386,7 @@
     "__prefab": null,
     "clickEvents": [],
     "_interactable": true,
-    "_transition": 2,
+    "_transition": 0,
     "_normalColor": {
       "__type__": "cc.Color",
       "r": 214,
@@ -2495,7 +2494,11 @@
       }
     ],
     "_active": true,
-    "_components": [],
+    "_components": [
+      {
+        "__id__": 78
+      }
+    ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -2615,21 +2618,43 @@
     "_lightmapSize": 64
   },
   {
+    "__type__": "cc.Animation",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 74
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "playOnLoad": false,
+    "_clips": [
+      {
+        "__uuid__": "d6cc4846-c025-4903-b9d1-cb317544081c",
+        "__expectedType__": "cc.AnimationClip"
+      }
+    ],
+    "_defaultClip": {
+      "__uuid__": "d6cc4846-c025-4903-b9d1-cb317544081c",
+      "__expectedType__": "cc.AnimationClip"
+    },
+    "_id": "58qa+fRpBMJaXLfJ8c2EU4"
+  },
+  {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 79
-    },
-    "shadows": {
       "__id__": 80
     },
-    "_skybox": {
+    "shadows": {
       "__id__": 81
     },
-    "fog": {
+    "_skybox": {
       "__id__": 82
     },
-    "octree": {
+    "fog": {
       "__id__": 83
+    },
+    "octree": {
+      "__id__": 84
     }
   },
   {
@@ -2666,18 +2691,18 @@
     },
     "_skyColorLDR": {
       "__type__": "cc.Vec4",
-      "x": 1,
-      "y": 1,
-      "z": 1,
+      "x": 1.000002,
+      "y": 0.952943,
+      "z": 0.894119,
       "w": 0.75
     },
     "_skyIllumLDR": 0.75,
     "_groundAlbedoLDR": {
       "__type__": "cc.Vec4",
-      "x": 1,
-      "y": 1,
-      "z": 1,
-      "w": 1
+      "x": 1.000002,
+      "y": 0.952943,
+      "z": 0.894119,
+      "w": 0
     }
   },
   {
@@ -2717,7 +2742,7 @@
       "__expectedType__": "cc.TextureCube"
     },
     "_envmapLDR": {
-      "__uuid__": "1b5192a1-1856-4bb1-a7cb-1410c1d15469@b47c0",
+      "__uuid__": "69fb7611-0dfd-43d7-91b8-7ca229398dc6@b47c0",
       "__expectedType__": "cc.TextureCube"
     },
     "_diffuseMapHDR": null,

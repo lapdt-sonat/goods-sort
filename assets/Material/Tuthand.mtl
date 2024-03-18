@@ -10,6 +10,7 @@
   "_techIdx": "1",
   "_defines": [
     {
+      "USE_INSTANCING": true,
       "USE_ALBEDO_MAP": true
     },
     {},
@@ -54,7 +55,7 @@
         "a": 255
       },
       "roughness": 0,
-      "metallic": 0.247,
+      "metallic": 0.28,
       "specularIntensity": 0,
       "mainTexture": {
         "__uuid__": "b68aae47-86e9-4ce5-a6e0-700fbb57bdbb@6c48a",

@@ -15,9 +15,12 @@ import {
   Node,
   physics,
   PhysicsSystem,
+  Animation,
+  tween,
   UITransform,
   Vec2,
   Vec3,
+  Tween,
 } from "cc";
 import { ShelfGroup } from "./ShelfGroup";
 import { UIController } from "./UIController";
@@ -28,6 +31,8 @@ import { Shelf } from "./Shelf";
 const { ccclass, property } = _decorator;
 const SHELF_HEIGHT = 0.75;
 const SHELF_WIDTH = 1;
+
+const TUTHAND_TWEEN_TAG = 1;
 
 @ccclass("GameController")
 export class GameController extends Component {
@@ -67,10 +72,13 @@ export class GameController extends Component {
   private _prevItemIndex: number = -1;
   private _timeToTutorial: number = 0;
   private _playingTutorial: boolean = false;
+  private _endcardEnabled: boolean = false;
 
   protected onLoad(): void {
-    const androidUrl = "";
-    const iosUrl = "";
+    const androidUrl =
+      "https://play.google.com/store/apps/details?id=closet.sort.triple.match.puzzle.game";
+    const iosUrl =
+      "https://apps.apple.com/vn/app/goods-sort-match-3d-master/id6475962301";
 
     playableHelper.setStoreUrl(iosUrl, androidUrl);
   }
@@ -85,15 +93,24 @@ export class GameController extends Component {
   }
 
   update(deltaTime: number) {
-    this._timeToTutorial += deltaTime;
+    if (!this._isTouched) {
+      this._timeToTutorial += deltaTime;
+    } else {
+      this._timeToTutorial = 0;
+    }
 
-    if (this._timeToTutorial >= 1 && !this._playingTutorial) {
+    if (
+      this._timeToTutorial >= 3 &&
+      !this._playingTutorial &&
+      !this._endcardEnabled
+    ) {
       this.playTutorial();
     }
   }
 
   onTouchStart(event: EventTouch) {
     this.uiController.removeCTP();
+    this.stopTutorial();
     this._playingTutorial = false;
 
     this.cameraComponent.screenPointToRay(
@@ -233,15 +250,45 @@ export class GameController extends Component {
 
     if (this.moves <= 0) {
       this.audioController.playWinSfx();
-      this.endcardController.showEndcard();
+      this.enableEndcard();
     }
   }
 
   playTutorial() {
+    this.uiController.spawnCTP();
     this._playingTutorial = true;
-    this._timeToTutorial = 0;
-
     const { startingPoint, destinationPoint } = this.findGoodSort();
+    this.tutHand.setPosition(startingPoint);
+    this.tutHand.active = true;
+
+    this.tutHand.getComponent(Animation).play("tut-hand");
+
+    const tutHandTween = tween(this.tutHand)
+      .tag(TUTHAND_TWEEN_TAG)
+      .to(0, { position: startingPoint })
+      .delay(0.2)
+      .to(
+        1.2,
+        { position: destinationPoint },
+        {
+          easing: "quartInOut",
+          // onComplete: () => {
+          //   this.tutHand.setPosition(startingPoint);
+          // },
+        }
+      )
+      .delay(0.5)
+      .union()
+      .repeatForever()
+      .start();
+  }
+
+  stopTutorial() {
+    Tween.stopAllByTag(TUTHAND_TWEEN_TAG);
+    this.tutHand.getComponent(Animation).stop();
+    this.tutHand.active = false;
+    this._playingTutorial = false;
+    this._timeToTutorial = 0;
   }
 
   findGoodSort() {
@@ -263,24 +310,26 @@ export class GameController extends Component {
     representItem = shelfComponent.getRepresentItem();
     const worldBlankSpot = shelfComponent.getWorldBlankSpot();
 
-    startingPoint.set(worldBlankSpot.x, worldBlankSpot.y, 0.35);
+    destinationPoint.set(worldBlankSpot.x, worldBlankSpot.y, 0.5);
 
-    for (let i = 0; i < shelves.length; i++) {
+    // console.log(targetShelf, representItem);
+
+    for (let i = shelves.length - 1; i >= 0; i--) {
       const shelf = shelves[i];
-      if (shelf.name === "Shelf") {
+      if (shelf && shelf.uuid !== targetShelf?.uuid) {
         const shelfComponent = shelf.getComponent(Shelf);
-        const { hasItem, itemWorldPos } = shelf
-          .getComponent(Shelf)
-          .checkRepresentItem(representItem.name);
+        const { hasItem, itemWorldPos } = shelfComponent.checkRepresentItem(
+          representItem.name
+        );
 
         if (hasItem) {
-          destinationPoint.set(itemWorldPos.x, itemWorldPos.y, 0.35);
+          startingPoint.set(itemWorldPos.x, itemWorldPos.y, 0.5);
           break;
         }
       }
     }
 
-    this.tutHand.setPosition(worldBlankSpot);
+    // this.tutHand.setPosition(startingPoint);
 
     return { startingPoint, destinationPoint };
   }
@@ -295,5 +344,14 @@ export class GameController extends Component {
 
     console.log("UI Position:", uiPosition);
     return uiPosition;
+  }
+
+  enableEndcard() {
+    input.off(Input.EventType.TOUCH_START, this.onTouchStart, this);
+    input.off(Input.EventType.TOUCH_MOVE, this.onTouchMove, this);
+    input.off(Input.EventType.TOUCH_END, this.onTouchEnd, this);
+    this._endcardEnabled = true;
+
+    this.endcardController.showEndcard();
   }
 }

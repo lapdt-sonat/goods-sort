@@ -215,6 +215,7 @@
         "_techIdx": 0,
         "_defines": [
           {
+            "USE_INSTANCING": true,
             "DCC_APP_NAME": 1,
             "USE_ALBEDO_MAP": true
           },
@@ -274,6 +275,7 @@
         "_techIdx": 0,
         "_defines": [
           {
+            "USE_INSTANCING": true,
             "DCC_APP_NAME": 1,
             "USE_ALBEDO_MAP": true
           },
@@ -317,6 +319,77 @@
             },
             "albedoScale": 0.800000011920929,
             "transparencyFactor": 0
+          },
+          {},
+          {}
+        ]
+      },
+      "b2daf81c-5db2-40ea-a27a-a9abbc1a2b08@5fa72": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "DCC_APP_NAME": 1
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 22,
+              "g": 22,
+              "b": 22,
+              "a": 255
+            },
+            "albedoScale": 0.800000011920929,
+            "shininessExponent": 20,
+            "specularColor": {
+              "__type__": "cc.Color",
+              "r": 40,
+              "g": 40,
+              "b": 40,
+              "a": 255
+            },
+            "transparencyFactor": 0.8571428656578064
           },
           {},
           {}

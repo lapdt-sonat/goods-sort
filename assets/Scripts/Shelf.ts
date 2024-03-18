@@ -145,7 +145,7 @@ export class Shelf extends Component {
   }
 
   getRepresentItem() {
-    return this.slots.find((slot) => slot !== null);
+    return this.slots.find((slot) => slot);
   }
 
   getWorldBlankSpot() {
@@ -160,7 +160,13 @@ export class Shelf extends Component {
   }
 
   checkRepresentItem(name: string) {
-    const item = this.slots.find((slot) => slot !== null && slot.name === name);
+    if (this._closed) {
+      return { hasItem: false, itemWorldPos: new Vec3() };
+    }
+
+    const item = this.slots.find((slot) => {
+      return slot?.name === name;
+    });
 
     if (item) {
       const itemWorldPos = new Vec3(item.worldPosition);

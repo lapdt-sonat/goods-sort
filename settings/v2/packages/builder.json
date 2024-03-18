@@ -1,0 +1,14 @@
+{
+  "splash-setting": {
+    "totalTime": 500,
+    "url": "D:\\playable-ads\\GoodSort\\assets\\Sprites\\game-icon.png",
+    "displayRatio": 0.4,
+    "displayWatermark": false,
+    "clearColor": {
+      "x": 0.24705882352941178,
+      "y": 0.24705882352941178,
+      "z": 0.24705882352941178,
+      "w": 1
+    }
+  }
+}

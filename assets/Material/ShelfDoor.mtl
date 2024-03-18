@@ -50,34 +50,34 @@
     {
       "tilingOffset": {
         "__type__": "cc.Vec4",
-        "x": 1.179,
-        "y": 1,
-        "z": -0.093,
-        "w": 0.001
+        "x": 0.732,
+        "y": 0.454,
+        "z": -0.868,
+        "w": -0.055
       },
       "roughness": 0,
       "metallic": 0,
       "specularIntensity": 0,
       "normalStrength": 0,
       "mainTexture": {
-        "__uuid__": "396c949b-a31d-4590-9460-585611e72df2@6c48a",
+        "__uuid__": "181cf9fd-ac31-4482-b3f8-c7ceee63c949@6c48a",
         "__expectedType__": "cc.Texture2D"
       },
       "normalMap": {
         "__uuid__": "5f625dce-16e5-4261-9c9b-b771c1876e5c@6c48a",
-        "__expectedType__": "cc.Texture2D"
+        "__expectedType__": "cc.TextureBase"
       },
       "pbrMap": {
         "__uuid__": "5f625dce-16e5-4261-9c9b-b771c1876e5c@6c48a",
-        "__expectedType__": "cc.Texture2D"
+        "__expectedType__": "cc.TextureBase"
       },
       "metallicRoughnessMap": {
         "__uuid__": "5f625dce-16e5-4261-9c9b-b771c1876e5c@6c48a",
-        "__expectedType__": "cc.Texture2D"
+        "__expectedType__": "cc.TextureBase"
       },
       "emissiveMap": {
         "__uuid__": "5f625dce-16e5-4261-9c9b-b771c1876e5c@6c48a",
-        "__expectedType__": "cc.Texture2D"
+        "__expectedType__": "cc.TextureBase"
       }
     },
     {},

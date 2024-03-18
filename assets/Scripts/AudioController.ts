@@ -15,9 +15,13 @@ export class AudioController extends Component {
   @property({ type: AudioSource })
   public winSfx: AudioSource = null!;
 
-  start() {}
+  start() {
+    this.pickSfx.volume = 1;
+  }
 
-  update(deltaTime: number) {}
+  update(deltaTime: number) {
+    this.pickSfx.pause();
+  }
 
   public playPickSfx() {
     //@ts-ignore
