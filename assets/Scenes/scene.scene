@@ -117,9 +117,9 @@
     "__prefab": null,
     "_color": {
       "__type__": "cc.Color",
-      "r": 240,
-      "g": 238,
-      "b": 208,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_useColorTemperature": false,
@@ -129,7 +129,7 @@
     },
     "_illuminanceHDR": 65000,
     "_illuminance": 65000,
-    "_illuminanceLDR": 2.5,
+    "_illuminanceLDR": 4,
     "_shadowEnabled": true,
     "_shadowPcf": 2,
     "_shadowBias": 0.00001,
@@ -599,8 +599,8 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "map": "{\"width\":5,\"height\":12,\"shelves\":[{\"index\":0,\"spawn\":true,\"slots\":[\"\",\"soda_2\",\"pop_bottle_1\"]},{\"index\":1,\"spawn\":true,\"slots\":[\"coffee_1\",\"juice_strawberry\",\"soda_3\"]},{\"index\":2,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"soda_1\",\"juice_green\"]},{\"index\":3,\"spawn\":true,\"slots\":[\"\",\"soda_1\",\"togo_cup_1\"]},{\"index\":4,\"spawn\":true,\"slots\":[\"soda_2\",\"togo_cup_1\",\"soda_1\"]},{\"index\":5,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_4\",\"soda_4\"]},{\"index\":6,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"\",\"pop_bottle_1\"]},{\"index\":7,\"spawn\":true,\"slots\":[\"pop_bottle_1\",\"soda_2\",\"soda_2\"]},{\"index\":8,\"spawn\":true,\"slots\":[\"soda_2\",\"soda_3\",\"juice_orange\"]},{\"index\":9,\"spawn\":true,\"slots\":[\"coffee_1\",\"soda_4\",\"togo_cup_1\"]},{\"index\":10,\"spawn\":true,\"slots\":[\"juice_green\",\"pop_bottle_1\",\"juice_green\"]},{\"index\":11,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_strawberry\",\"pop_bottle_1\"]},{\"index\":12,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_4\",\"soda_3\"]},{\"index\":13,\"spawn\":true,\"slots\":[\"\",\"soda_1\",\"soda_1\"]},{\"index\":14,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_3\",\"soda_4\"]},{\"index\":15,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_orange\",\"pop_bottle_1\"]},{\"index\":16,\"spawn\":true,\"slots\":[\"coffee_1\",\"coffee_1\",\"\"]},{\"index\":17,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"water_bottle_1\",\"\"]},{\"index\":18,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"coffee_1\",\"juice_strawberry\"]},{\"index\":19,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_green\",\"juice_orange\"]},{\"index\":20,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_3\",\"water_bottle_1\"]},{\"index\":21,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"soda_2\",\"soda_4\"]},{\"index\":22,\"spawn\":true,\"slots\":[\"\",\"juice_strawberry\",\"juice_strawberry\"]},{\"index\":23,\"spawn\":true,\"slots\":[\"coffee_1\",\"pop_bottle_1\",\"juice_green\"]},{\"index\":24,\"spawn\":true,\"slots\":[\"soda_2\",\"soda_4\",\"soda_3\"]},{\"index\":25,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_4\",\"\"]},{\"index\":26,\"spawn\":true,\"slots\":[\"juice_orange\",\"soda_3\",\"juice_strawberry\"]},{\"index\":27,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_green\",\"juice_orange\"]},{\"index\":28,\"spawn\":true,\"slots\":[\"soda_2\",\"water_bottle_1\",\"coffee_1\"]},{\"index\":29,\"spawn\":true,\"slots\":[\"juice_green\",\"coffee_1\",\"soda_3\"]},{\"index\":30,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"soda_1\",\"\"]},{\"index\":31,\"spawn\":true,\"slots\":[\"soda_4\",\"\",\"soda_4\"]},{\"index\":32,\"spawn\":true,\"slots\":[\"soda_1\",\"pop_bottle_1\",\"soda_3\"]},{\"index\":33,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_4\",\"water_bottle_1\"]},{\"index\":34,\"spawn\":true,\"slots\":[\"\",\"soda_2\",\"soda_2\"]},{\"index\":35,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_orange\",\"soda_4\"]},{\"index\":36,\"spawn\":true,\"slots\":[\"soda_2\",\"togo_cup_1\",\"\"]},{\"index\":37,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_strawberry\",\"soda_4\"]},{\"index\":38,\"spawn\":true,\"slots\":[\"coffee_1\",\"juice_orange\",\"soda_3\"]},{\"index\":39,\"spawn\":true,\"slots\":[\"soda_2\",\"water_bottle_1\",\"pop_bottle_1\"]},{\"index\":40,\"spawn\":true,\"slots\":[\"soda_3\",\"juice_strawberry\",\"juice_orange\"]},{\"index\":41,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"water_bottle_1\",\"juice_orange\"]},{\"index\":42,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"juice_strawberry\",\"togo_cup_1\"]},{\"index\":43,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"togo_cup_1\",\"\"]},{\"index\":44,\"spawn\":true,\"slots\":[\"soda_1\",\"juice_orange\",\"juice_strawberry\"]},{\"index\":45,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"pop_bottle_1\",\"soda_2\"]},{\"index\":46,\"spawn\":true,\"slots\":[\"togo_cup_1\",\"soda_1\",\"\"]},{\"index\":47,\"spawn\":true,\"slots\":[\"juice_strawberry\",\"togo_cup_1\",\"togo_cup_1\"]},{\"index\":48,\"spawn\":true,\"slots\":[\"soda_1\",\"water_bottle_1\",\"juice_green\"]},{\"index\":49,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_2\",\"juice_strawberry\"]},{\"index\":50,\"spawn\":true,\"slots\":[\"juice_green\",\"juice_green\",\"\"]},{\"index\":51,\"spawn\":true,\"slots\":[\"juice_green\",\"soda_1\",\"soda_2\"]},{\"index\":52,\"spawn\":true,\"slots\":[\"soda_2\",\"juice_strawberry\",\"coffee_1\"]},{\"index\":53,\"spawn\":true,\"slots\":[\"soda_3\",\"\",\"soda_3\"]},{\"index\":54,\"spawn\":true,\"slots\":[\"soda_4\",\"juice_strawberry\",\"pop_bottle_1\"]},{\"index\":55,\"spawn\":true,\"slots\":[\"juice_orange\",\"coffee_1\",\"\"]},{\"index\":56,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"\",\"juice_green\"]},{\"index\":57,\"spawn\":true,\"slots\":[\"juice_orange\",\"juice_orange\",\"\"]},{\"index\":58,\"spawn\":true,\"slots\":[\"\",\"coffee_1\",\"pop_bottle_1\"]},{\"index\":59,\"spawn\":true,\"slots\":[\"water_bottle_1\",\"soda_2\",\"soda_3\"]}]}",
-    "moves": 8,
+    "map": "{\"width\":5,\"height\":12,\"shelves\":[{\"index\":0,\"spawn\":true,\"slots\":[\"sheep\",\"teddy_blue\",\"dinosaur\"]},{\"index\":1,\"spawn\":true,\"slots\":[\"alpaca\",\"alpaca\",\"avocado\"]},{\"index\":2,\"spawn\":true,\"slots\":[\"duck\",\"dinosaur\",\"\"]},{\"index\":3,\"spawn\":true,\"slots\":[\"sheep\",\"elephant\",\"teddy_white\"]},{\"index\":4,\"spawn\":true,\"slots\":[\"dinosaur\",\"dragon\",\"teddy_white\"]},{\"index\":5,\"spawn\":true,\"slots\":[\"dinosaur\",\"dinosaur\",\"\"]},{\"index\":6,\"spawn\":true,\"slots\":[\"doll_1\",\"teddy_blue\",\"\"]},{\"index\":7,\"spawn\":true,\"slots\":[\"\",\"doll_1\",\"doll_1\"]},{\"index\":8,\"spawn\":true,\"slots\":[\"sheep\",\"duck\",\"teddy_blue\"]},{\"index\":9,\"spawn\":true,\"slots\":[\"avocado\",\"avocado\",\"\"]},{\"index\":10,\"spawn\":true,\"slots\":[\"sheep\",\"\",\"sheep\"]},{\"index\":11,\"spawn\":true,\"slots\":[\"alpaca\",\"doll_1\",\"avocado\"]},{\"index\":12,\"spawn\":true,\"slots\":[\"teddy_white\",\"elephant\",\"duck\"]},{\"index\":13,\"spawn\":true,\"slots\":[\"duck\",\"bunny_orange\",\"doll_2\"]},{\"index\":14,\"spawn\":true,\"slots\":[\"dinosaur\",\"avocado\",\"\"]},{\"index\":15,\"spawn\":true,\"slots\":[\"doll_2\",\"horse\",\"teddy_blue\"]},{\"index\":16,\"spawn\":true,\"slots\":[\"dinosaur\",\"doll_1\",\"elephant\"]},{\"index\":17,\"spawn\":true,\"slots\":[\"dinosaur\",\"teddy_blue\",\"doll_2\"]},{\"index\":18,\"spawn\":true,\"slots\":[\"teddy_blue\",\"\",\"\"]},{\"index\":19,\"spawn\":true,\"slots\":[\"horse\",\"bunny_orange\",\"elephant\"]},{\"index\":20,\"spawn\":true,\"slots\":[\"doll_1\",\"alpaca\",\"alpaca\"]},{\"index\":21,\"spawn\":true,\"slots\":[\"avocado\",\"dragon\",\"doll_2\"]},{\"index\":22,\"spawn\":true,\"slots\":[\"teddy_white\",\"duck\",\"avocado\"]},{\"index\":23,\"spawn\":true,\"slots\":[\"alpaca\",\"sheep\",\"dragon\"]},{\"index\":24,\"spawn\":true,\"slots\":[\"duck\",\"bunny_orange\",\"horse\"]},{\"index\":25,\"spawn\":true,\"slots\":[\"doll_2\",\"doll_2\",\"\"]},{\"index\":26,\"spawn\":true,\"slots\":[\"duck\",\"\",\"\"]},{\"index\":27,\"spawn\":true,\"slots\":[\"bunny_orange\",\"teddy_blue\",\"horse\"]},{\"index\":28,\"spawn\":true,\"slots\":[\"doll_1\",\"\",\"doll_1\"]},{\"index\":29,\"spawn\":true,\"slots\":[\"dragon\",\"elephant\",\"sheep\"]},{\"index\":30,\"spawn\":true,\"slots\":[\"dinosaur\",\"doll_1\",\"bunny_orange\"]},{\"index\":31,\"spawn\":true,\"slots\":[\"doll_1\",\"sheep\",\"doll_1\"]},{\"index\":32,\"spawn\":true,\"slots\":[\"doll_1\",\"bunny_orange\",\"duck\"]},{\"index\":33,\"spawn\":true,\"slots\":[\"horse\",\"alpaca\",\"teddy_blue\"]},{\"index\":34,\"spawn\":true,\"slots\":[\"duck\",\"alpaca\",\"elephant\"]},{\"index\":35,\"spawn\":true,\"slots\":[\"avocado\",\"doll_1\",\"dinosaur\"]},{\"index\":36,\"spawn\":true,\"slots\":[\"horse\",\"dinosaur\",\"dinosaur\"]},{\"index\":37,\"spawn\":true,\"slots\":[\"teddy_blue\",\"teddy_blue\",\"\"]},{\"index\":38,\"spawn\":true,\"slots\":[\"elephant\",\"elephant\",\"\"]},{\"index\":39,\"spawn\":true,\"slots\":[\"duck\",\"dragon\",\"doll_1\"]},{\"index\":40,\"spawn\":true,\"slots\":[\"duck\",\"teddy_white\",\"dragon\"]},{\"index\":41,\"spawn\":true,\"slots\":[\"doll_1\",\"doll_1\",\"dragon\"]},{\"index\":42,\"spawn\":true,\"slots\":[\"doll_1\",\"bunny_orange\",\"duck\"]},{\"index\":43,\"spawn\":true,\"slots\":[\"duck\",\"\",\"duck\"]},{\"index\":44,\"spawn\":true,\"slots\":[\"doll_2\",\"doll_2\",\"\"]},{\"index\":45,\"spawn\":true,\"slots\":[\"horse\",\"teddy_blue\",\"horse\"]},{\"index\":46,\"spawn\":true,\"slots\":[\"sheep\",\"teddy_white\",\"alpaca\"]},{\"index\":47,\"spawn\":true,\"slots\":[\"avocado\",\"horse\",\"doll_2\"]},{\"index\":48,\"spawn\":true,\"slots\":[\"alpaca\",\"doll_2\",\"horse\"]},{\"index\":49,\"spawn\":true,\"slots\":[\"duck\",\"teddy_white\",\"teddy_blue\"]},{\"index\":50,\"spawn\":true,\"slots\":[\"elephant\",\"avocado\",\"horse\"]},{\"index\":51,\"spawn\":true,\"slots\":[\"teddy_blue\",\"horse\",\"avocado\"]},{\"index\":52,\"spawn\":true,\"slots\":[\"doll_2\",\"teddy_white\",\"teddy_blue\"]},{\"index\":53,\"spawn\":true,\"slots\":[\"avocado\",\"bunny_orange\",\"sheep\"]},{\"index\":54,\"spawn\":true,\"slots\":[\"dragon\",\"dragon\",\"\"]},{\"index\":55,\"spawn\":true,\"slots\":[\"alpaca\",\"dinosaur\",\"teddy_white\"]},{\"index\":56,\"spawn\":true,\"slots\":[\"teddy_white\",\"teddy_white\",\"horse\"]},{\"index\":57,\"spawn\":true,\"slots\":[\"dragon\",\"sheep\",\"elephant\"]},{\"index\":58,\"spawn\":true,\"slots\":[\"teddy_white\",\"duck\",\"teddy_blue\"]},{\"index\":59,\"spawn\":true,\"slots\":[\"sheep\",\"bunny_orange\",\"\"]}]}",
+    "moves": 5,
     "shelfGroup": {
       "__id__": 19
     },
@@ -789,47 +789,55 @@
     "__prefab": null,
     "items": [
       {
-        "__uuid__": "7b5acb3c-124f-4fb8-ade0-4261bcaf1600",
+        "__uuid__": "d9212170-4d51-4010-9875-47279a59e57d",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "edf124b1-ef15-42c2-890e-f8692faf59c4",
+        "__uuid__": "fe04fec0-445d-4414-94cb-cd9988465131",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "b7a0f40c-5913-49a5-90bd-7fd79168f54c",
+        "__uuid__": "f86eaf05-a662-40d2-8379-a4c5edd18513",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "3541cf5b-884d-4405-8a35-d8f891a4979e",
+        "__uuid__": "7122c5d9-c856-46b1-a50f-168794c250d4",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "b212d079-fbf5-4a66-8d9c-abf82593b7b1",
+        "__uuid__": "3a041cb1-6e72-4296-a88a-374420265ab4",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "5cfcf45c-9705-4f26-bc10-0d13fb923294",
+        "__uuid__": "ec9fa9c0-3d33-4b22-8459-04e4a5f06654",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "de13cdee-a880-4393-8e1e-83486630174b",
+        "__uuid__": "c54741b6-faa6-48e0-bee9-0160dcd3dbd0",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "89f65a38-d5b0-4bab-a094-248cd4d3e899",
+        "__uuid__": "0ae52d17-2f23-4c8c-a379-18dbe4965758",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "ce5229e3-f91c-4995-b1c5-727bd7c9f4f6",
+        "__uuid__": "f74daf61-3c1d-4f7d-a6d0-faab59cad4a6",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "718a5a43-58b8-4f4c-8a0b-7b7c1a68fac5",
+        "__uuid__": "c6586565-e57e-4b86-a055-1669752555ff",
         "__expectedType__": "cc.Prefab"
       },
       {
-        "__uuid__": "a60aa1b3-953e-4cc1-82aa-59f21bf687fe",
+        "__uuid__": "2b2b1d19-f46b-4722-ae48-42cc14ec3779",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "99d0c58c-8b7a-43ab-b1fa-49cbeb545c06",
+        "__expectedType__": "cc.Prefab"
+      },
+      {
+        "__uuid__": "9b910f18-7dfd-4c16-8934-8991180de21a",
         "__expectedType__": "cc.Prefab"
       }
     ],
@@ -2691,18 +2699,18 @@
     },
     "_skyColorLDR": {
       "__type__": "cc.Vec4",
-      "x": 1.000002,
-      "y": 0.952943,
-      "z": 0.894119,
-      "w": 0.75
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "w": 0.3
     },
-    "_skyIllumLDR": 0.75,
+    "_skyIllumLDR": 0.3,
     "_groundAlbedoLDR": {
       "__type__": "cc.Vec4",
-      "x": 1.000002,
-      "y": 0.952943,
-      "z": 0.894119,
-      "w": 0
+      "x": 1,
+      "y": 1,
+      "z": 1,
+      "w": 1
     }
   },
   {

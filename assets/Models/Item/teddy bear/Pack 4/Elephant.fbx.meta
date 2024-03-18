@@ -105,6 +105,68 @@
       "scenes": [
         "5ef71166-3a06-4539-adbb-de629a76fd73@2ea74"
       ]
+    },
+    "materials": {
+      "5ef71166-3a06-4539-adbb-de629a76fd73@c7249": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "DCC_APP_NAME": 1,
+            "USE_ALBEDO_MAP": true
+          },
+          {},
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "5ef71166-3a06-4539-adbb-de629a76fd73@c86f2",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "transparencyFactor": 0
+          },
+          {},
+          {}
+        ]
+      }
     }
   }
 }
