@@ -319,22 +319,29 @@ export class GameController extends Component {
 
     // console.log(targetShelf, representItem);
 
-    for (let i = shelves.length - 1; i >= 0; i--) {
-      const shelf = shelves[i];
-      if (shelf && shelf.uuid !== targetShelf?.uuid) {
-        const shelfComponent = shelf.getComponent(Shelf);
-        const { hasItem, itemWorldPos } = shelfComponent.checkRepresentItem(
-          representItem.name
-        );
+    let shelfIndex = 0;
+    for (let x = 0; x < 5; x++) {
+      for (let y = 0; y < 12; y++) {
+        shelfIndex++;
 
-        if (hasItem) {
-          startingPoint.set(itemWorldPos.x, itemWorldPos.y, 0.5);
-          break;
+        if ((x === 0 || x === 4) && (y === 0 || y === 11)) {
+          continue;
+        } else {
+          const shelf = shelves[shelfIndex];
+          if (shelf && shelf.uuid !== targetShelf?.uuid) {
+            const shelfComponent = shelf.getComponent(Shelf);
+            const { hasItem, itemWorldPos } = shelfComponent.checkRepresentItem(
+              representItem.name
+            );
+
+            if (hasItem) {
+              startingPoint.set(itemWorldPos.x, itemWorldPos.y, 0.5);
+              break;
+            }
+          }
         }
       }
     }
-
-    // this.tutHand.setPosition(startingPoint);
 
     return { startingPoint, destinationPoint };
   }

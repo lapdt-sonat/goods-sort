@@ -132,17 +132,17 @@
       "__id__": 3
     },
     "asset": {
-      "__uuid__": "ad5d6f3d-b1ca-47cc-9ad9-65cdbf280f0e@5b31f",
+      "__uuid__": "23842776-e746-4e55-ba59-f3b74252d7bc@e5e90",
       "__expectedType__": "cc.Prefab"
     },
-    "fileId": "51sZ2lz+9WBIMCIzqcrA5x",
+    "fileId": "d26+DI6lVZ85e5lBB9ZNfU",
     "instance": {
       "__id__": 5
     }
   },
   {
     "__type__": "cc.PrefabInstance",
-    "fileId": "8fIIjrGPZDo4JaATCNEHlB",
+    "fileId": "3fsJ/XpLBBOZL1DFQ4eR1O",
     "prefabRootNode": {
       "__id__": 1
     },
@@ -175,12 +175,12 @@
     "propertyPath": [
       "_name"
     ],
-    "value": "Avocado"
+    "value": "Bunny_Orange"
   },
   {
     "__type__": "cc.TargetInfo",
     "localID": [
-      "51sZ2lz+9WBIMCIzqcrA5x"
+      "d26+DI6lVZ85e5lBB9ZNfU"
     ]
   },
   {
