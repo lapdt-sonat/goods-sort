@@ -89,7 +89,7 @@ export class GameController extends Component {
     input.on(Input.EventType.TOUCH_END, this.onTouchEnd, this);
 
     this.shelfGroup.initShelfGroup(this.map);
-    this.playTutorial();
+    // this.playTutorial();
   }
 
   update(deltaTime: number) {
@@ -102,14 +102,14 @@ export class GameController extends Component {
     if (
       this._timeToTutorial >= 3 &&
       !this._playingTutorial &&
-      !this._endcardEnabled
+      !this._endcardEnabled &&
+      this._isInteracted
     ) {
       this.playTutorial();
     }
   }
 
   onTouchStart(event: EventTouch) {
-    this.uiController.removeCTP();
     this.stopTutorial();
     this._playingTutorial = false;
 
@@ -148,7 +148,11 @@ export class GameController extends Component {
     }
 
     if (!this._isInteracted) {
+      this.uiController.stopIntro();
+      this.playTutorial();
       this._isInteracted = true;
+    } else {
+      this.uiController.removeCTP();
     }
   }
 
@@ -199,6 +203,7 @@ export class GameController extends Component {
 
   processHitShelf(result: physics.PhysicsRayResult): number {
     const hitPoint = new Vec3(result.hitPoint);
+    console.log("Hit Point:", hitPoint.x, hitPoint.y, hitPoint.z);
     const shelf = result.collider.node.getComponent(Shelf);
 
     const slotIndex = shelf.calcEndSlotIndex(new Vec2(hitPoint.x, hitPoint.y));
@@ -211,7 +216,7 @@ export class GameController extends Component {
 
       if (isSoldOut) {
         this.audioController.playSoldOutSfx();
-        shelf.close();
+        shelf.removeAll();
         // this.uiController.showWinScreen();
       }
       // this.audioController.("drop");

@@ -13,15 +13,15 @@ export class Shelf extends Component {
   @property({ type: [Node] })
   public slots: Node[] = [null, null, null];
 
-  @property({ type: Node })
-  public door: Node | null = null;
+  // @property({ type: Node })
+  // public door: Node | null = null;
 
   private _closed: boolean = false;
 
   private _hasItemSlot: boolean[] = [false, false, false];
 
   start() {
-    this.door.active = false;
+    // this.door.active = false;
   }
 
   update(deltaTime: number) {}
@@ -113,9 +113,9 @@ export class Shelf extends Component {
   }
 
   close() {
-    this.door.active = true;
-    const animation = this.node.getComponent(Animation);
-    animation.play("close-shelf");
+    // this.door.active = true;
+    // const animation = this.node.getComponent(Animation);
+    // animation.play("close-shelf");
     this._closed = true;
     // console.log("animation shelf close");
   }
@@ -174,5 +174,18 @@ export class Shelf extends Component {
     }
 
     return { hasItem: false, itemWorldPos: new Vec3() };
+  }
+
+  removeAll() {
+    this.slots.forEach((slot, index) => {
+      if (slot) {
+        slot.getComponent(Animation).play("teddy-win");
+        // @ts-ignore
+        slot.getComponent(Animation).on("finished", () => {
+          this.removeItem(slot, index);
+          slot.removeFromParent();
+        });
+      }
+    });
   }
 }
